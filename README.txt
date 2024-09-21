@@ -1,19 +1,16 @@
-# DeskSpacing-Continued
+DeskSpacing-Continued
+Welcome to DeskSpacing-Continued, a community-driven fork of the original DeskSpacing project!
 
-Welcome to DeskSpacing-Continued, the enhanced fork of DeskSpacing! 
+Explore DeskSpacing: Deskspacing.com
 
-**Explore DeskSpacing**: [Deskspacing.com](https://deskspacing.com/)
+Description
+DeskSpacing-Continued aims to finish the original DeskSpacing project by adding new models, enhancing features, and improving room customization. Our mission is to provide users with an engaging and versatile workspace experience.
 
-## Project Overview
-
-DeskSpacing-Continued aims to revitalize and complete the DeskSpacing project by introducing new models, expanding features, and enhancing room customization. Our goal is to create an even more engaging and versatile experience for users.
-
-## Key Features
-
-- **New Models**: Expanding the library of models for greater variety.
-- **Enhanced Features**: Introducing innovative functionalities to elevate your workspace experience.
-- **Room Customization**: More options to personalize and optimize your environment.
-
-## Getting Started
-
-The main code for the project resides in the `mainApp.html` file. Feel free to explore, contribute, and share your ideas!
+Features
+New Models: A growing library of models to choose from.
+Enhanced Features: Innovative functionalities for an optimized experience.
+Room Customization: Expanded options for personalizing your workspace.
+Getting Started
+Prerequisites
+Basic knowledge of HTML, CSS, and JavaScript.
+A modern web browser.
