@@ -1,12 +1,37 @@
 html {
   overflow-x: hidden; }
+:root {
+  --bg-color: #121212;
+  --text-color: #ffffff;
+  --navbar-color: #1f1f1f;
+  --btn-bg-color: #007bff;
+  --btn-text-color: #ffffff;
+  --footer-bg-color: #1f1f1f;
+}
+
+[data-theme="light"] {
+  --bg-color: #f4f6f8;
+  --text-color: #333333;
+  --navbar-color: #ffffff;
+  --btn-bg-color: #007bff;
+  --btn-text-color: #ffffff;
+  --footer-bg-color: #ffffff;
+}
 
 body {
-  font-family: "Raleway", sans-serif;
-  line-height: 1.7;
-  font-size: 18px;
-  background: #2A363B;
-  color: #859196; }
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  font-family: 'Poppins', sans-serif;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.navbar {
+  background-color: var(--navbar-color);
+}
+/* Ensuring headings are visible in both themes */
+h1, h2 {
+  color: var(--text-color) !important; /* Important to override any other specific styles */
+}
 
 a {
   -webkit-transition: .3s all ease;
@@ -17,10 +42,6 @@ a {
     text-decoration: none;
     color: #CF4647; }
 
-h1, h2, h3, h4, h5 {
-  line-height: 1.5;
-  font-weight: normal;
-  color: #fff; }
 
 .text-primary {
   color: #CF4647 !important; }
