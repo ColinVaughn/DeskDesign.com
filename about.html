@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>DeskSpacing - About Us</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Google Fonts: Poppins for a more modern font -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
+  <link rel="stylesheet" href="css/icomoon.css">
+  <link rel="stylesheet" href="css/style.css">
+
+  <!-- Dark/Light Mode Styles -->
+  <style>
+    :root {
+      --bg-color: #121212;
+      --text-color: #ffffff;
+      --navbar-color: #1f1f1f;
+      --btn-bg-color: #007bff;
+      --btn-text-color: #ffffff;
+      --footer-bg-color: #1f1f1f;
+    }
+
+    [data-theme="light"] {
+      --bg-color: #f4f6f8;
+      --text-color: #333333;
+      --navbar-color: #ffffff;
+      --btn-bg-color: #007bff;
+      --btn-text-color: #ffffff;
+      --footer-bg-color: #ffffff;
+    }
+
+    body {
+      background-color: var(--bg-color);
+      color: var(--text-color);
+      font-family: 'Poppins', sans-serif;
+      transition: background-color 0.3s ease, color 0.3s ease;
+    }
+
+    .navbar {
+      background-color: var(--navbar-color);
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .navbar-brand, .navbar-nav .nav-link {
+      color: var(--text-color) !important;
+    }
+
+    .btn-primary {
+      background-color: var(--btn-bg-color);
+      color: var(--btn-text-color);
+    }
+
+    footer {
+      background-color: var(--footer-bg-color);
+      color: var(--text-color);
+    }
+
+    .mode-toggle {
+      background-color: transparent;
+      border: none;
+      color: var(--text-color);
+      font-size: 1.2rem;
+      cursor: pointer;
+      padding: 10px;
+      transition: color 0.3s ease;
+    }
+
+    .mode-toggle:hover {
+      color: #007bff;
+    }
+
+    .navbar .ml-auto {
+      display: flex;
+      align-items: center;
+    }
+
+    .probootstrap-heading {
+      font-size: 2.5rem;
+      font-weight: 600;
+    }
+
+    .probootstrap-section {
+      padding: 3rem 0;
+    }
+
+    .probootstrap-footer-social {
+      display: flex;
+      gap: 1rem;
+    }
+  </style>
+</head>
+
+<body data-theme="dark">
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg">
+  <div class="container">
+    <a class="navbar-brand" href="index.html">DeskSpacing</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#probootstrap-nav" aria-controls="probootstrap-nav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="probootstrap-nav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+        <li class="nav-item"><a href="mainApp.html" class="nav-link">Setup Creator</a></li>
+        <li class="nav-item active"><a href="about.html" class="nav-link">About</a></li>
+        <li class="nav-item">
+          <button id="modeToggle" class="mode-toggle" aria-label="Toggle Dark/Light Mode">🌙</button>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<!-- END nav -->
+
+<!-- Meet the Team Section -->
+<section class="probootstrap-section">
+  <div class="container">
+    <div class="row mb-5 justify-content-center text-center">
+      <div class="col-md-8">
+        <h2 class="probootstrap-heading">Meet The Team</h2>
+      </div>
+    </div>
+
+    <!-- Current Developers -->
+    <div class="row mb-5 justify-content-center text-center">
+      <div class="col-md-8">
+        <h3 class="probootstrap-heading">Current Developers</h3>
+      </div>
+    </div>
+
+    <div class="row">
+      <!-- Current Developer 1 -->
+      <div class="col-md-6">
+        <div class="media d-block mb-4">
+          <div class="media-body p-3">
+            <h5 class="mt-0">Colin Vaughna</h5>
+            <h6 class="mt-1">Current Software Lead</h6>
+            <p>Leading the development of new features and maintaining DeskSpacing's core functionality.</p>
+            <ul class="probootstrap-footer-social list-unstyled float-md-left">
+              <li><a href="#" target="_blank"><span class="icon-github"></span></a></li>
+              <li><a href="#" target="_blank"><span class="icon-linkedin"></span></a></li>
+              <li><a href="#" target="_blank"><span class="icon-globe"></span></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- You can add more current developers here -->
+
+    </div>
+
+    <!-- Previous Developers -->
+    <div class="row mb-5 justify-content-center text-center">
+      <div class="col-md-8">
+        <h3 class="probootstrap-heading">Previous Developers</h3>
+      </div>
+    </div>
+
+    <div class="row">
+      <!-- Previous Developer 1 -->
+      <div class="col-md-6">
+        <div class="media d-block mb-4">
+          <div class="media-body p-3">
+            <h5 class="mt-0">Cooper Lappenbusch</h5>
+            <h6 class="mt-1">Software Development Lead</h6>
+            <p>Worked on the programming side of the project utilizing the ThreeJS JavaScript library.</p>
+            <ul class="probootstrap-footer-social list-unstyled float-md-left">
+              <li><a href="https://github.com/cooperlappenbusch" target="_blank"><span class="icon-github"></span></a></li>
+              <li><a href="https://www.linkedin.com/in/cooper-lappenbusch-3170b8153/" target="_blank"><span class="icon-linkedin"></span></a></li>
+              <li><a href="https://cooperlappenbusch.com" target="_blank"><span class="icon-globe"></span></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- Previous Developer 2 -->
+      <div class="col-md-6">
+        <div class="media d-block mb-4">
+          <div class="media-body p-3">
+            <h5 class="mt-0">Travers Sorenson</h5>
+            <h6 class="mt-1">3D Modeling Lead</h6>
+            <p>Modeled and textured all of the 3D objects and contributed to the website design.</p>
+            <ul class="probootstrap-footer-social list-unstyled float-md-left">
+              <li><a href="https://github.com/Trav798" target="_blank"><span class="icon-github"></span></a></li>
+              <li><a href="https://www.linkedin.com/in/travers-sorenson-4b5120191" target="_blank"><span class="icon-linkedin"></span></a></li>
+              <li><a href="https://sorensontravers201.wixsite.com/website" target="_blank"><span class="icon-globe"></span></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<!-- Technologies Section -->
+<section class="probootstrap-section">
+  <div class="container">
+    <div class="row mb-5 justify-content-center text-center">
+      <div class="col-md-8">
+        <h2 class="probootstrap-heading">Technologies Used</h2>
+        <p>These are the three foundational technologies we used to create DeskSpacing.com</p>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-lg-4 col-md-6 mb-4">
+        <h5 class="mt-0">Bootstrap 5</h5>
+        <p>Bootstrap was used to create the user interface of DeskSpacing.com, including the landing page.</p>
+      </div>
+      <div class="col-lg-4 col-md-6 mb-4">
+        <h5 class="mt-0">ThreeJS</h5>
+        <p>ThreeJS powers the 3D rendering on DeskSpacing.com, allowing us to manipulate 3D models directly in the browser.</p>
+      </div>
+      <div class="col-lg-4 col-md-6 mb-4">
+        <h5 class="mt-0">Blender</h5>
+        <p>Blender was used to create and design all of the 3D models used on DeskSpacing.com.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="probootstrap-footer">
+  <div class="container">
+    <div class="row mb-5">
+      <div class="col-md-5 order-md-2">
+        <div class="probootstrap-footer-widget mb-4">
+          <ul class="probootstrap-footer-social list-unstyled">
+            <li><a href="mailto:deskspacing@gmail.com"><span class="icon-mail"></span></a></li>
+            <li><a href="https://github.com/cooperlappenbusch/DeskSpacing.com" target="_blank"><span class="icon-github"></span></a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-md-7 order-md-1">
+        <p>&copy; DeskSpacing 2024. All Rights Reserved. <br> Made with <span class="icon-heart"></span> by <a href="https://uicookies.com/" target="_blank">uiCookies</a>. Demo Images: <a href="https://unsplash.com/" target="_blank">Unsplash</a></p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- Scripts -->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" crossorigin="anonymous"></script>
+
+<!-- Dark/Light Mode Toggle Script -->
+<script>
+  const modeToggle = document.getElementById('modeToggle');
+  const body = document.body;
+
+  function setTheme(theme) {
+    body.setAttribute('data-theme', theme);
+    localStorage.setItem('theme', theme);
+    modeToggle.textContent = theme === 'dark' ? '🌙' : '☀️';
+  }
+
+  const savedTheme = localStorage.getItem('theme') || 'dark';
+  setTheme(savedTheme);
+
+  modeToggle.addEventListener('click', () => {
+    const currentTheme = body.getAttribute('data-theme');
+    const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
+    setTheme(newTheme);
+  });
+</script>
+
+</body>
+
+</html>
